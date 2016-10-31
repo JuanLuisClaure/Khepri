@@ -33,10 +33,7 @@ class todoController {
     }
 
     updateComponent() {
-
-        setInterval(function() {
-            store.dispatch(updateItems(store.getState().todos));
-        }, 1000);
+            store.dispatch(updateItems(store.getState().todos), 1000);
     }
 }
 

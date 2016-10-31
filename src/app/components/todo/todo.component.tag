@@ -1,7 +1,7 @@
 <todo-component>
 
     <ol>
-        <li each={ todo in todos } >{ todo }</li>
+        <li each={ todo in todos } >{ todo.name }</li>
     </ol>
 
     <script>
